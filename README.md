@@ -56,3 +56,48 @@ spring.jpa.show-sql=true
 
 **mvn spring-boot:run**
 
+
+#  Inventory Management UI (Next.js + Tailwind CSS)
+
+This is the **frontend** of the Inventory Management System built using **Next.js 14**, **Tailwind CSS**, and **ShadCN UI**. It supports features like:
+
+-  JWT-based Login & Logout
+-  Role-based access (Admin, User)
+-  CRUD operations (Server, Category, OS, Type, Environment, Location)
+-  Bulk upload/delete via JSON
+-  Search and filtering
+-  Toast messages & UI confirmations
+
+---
+
+##  Tech Stack
+
+-  Next.js 14 (App Router)
+- Tailwind CSS
+- ShadCN UI
+- JWT Auth (Token from Spring Boot)
+- Axios for API calls
+- Backend: Spring Boot + PostgreSQL
+
+---
+
+##  Installation
+
+### Clone the repo
+
+git clone git@github.com:Diksha-roy/Inventory-Management-System.git
+cd Inventory-Management-System/frontend
+
+### Install dependencies
+***npm install
+# or
+yarn install***
+
+### Run the app locally
+***npm run dev
+# or
+yarn dev***
+
+
+
+
